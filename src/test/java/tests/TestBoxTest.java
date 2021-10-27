@@ -24,7 +24,6 @@ public class TestBoxTest {
         String state = "NCR";
         String city = "Delhi";
 
-
         open("https://demoqa.com/automation-practice-form");
 
         $("#firstName").setValue(firstName);
@@ -56,8 +55,5 @@ public class TestBoxTest {
                 text("Address"), text(currentAddress),
                 text("State and City"), text(state + " " + city)
         );
-        //sleep(3000);
-
-
     }
 }
