@@ -1,16 +1,13 @@
 package tests;
 
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Selectors;
-import com.codeborne.selenide.commands.UploadFile;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebElement;
 
 import java.io.File;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.open;
 
 public class TestBoxTest {
     @Test
